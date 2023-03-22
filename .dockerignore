@@ -1,0 +1,41 @@
+# project
+.git
+.gitignoreold
+.dockerignore
+.tool-versions
+docker-compose.yml
+envs/
+.venv/
+scripts/
+kubernetes/
+pypistats.egg-info/
+Dockerfile
+Makefile
+README.rst
+
+# mac osx
+**/.DS_Store
+
+# python bytecode
+*.py[cod]
+**/__pycache__/
+
+# celery
+celerybeat-schedule
+celerybeat.pid
+
+# redis
+dump.rdb
+
+# Elastic Beanstalk Files
+.elasticbeanstalk
+.ebignore
+
+# intellij
+.idea/
+
+# secrets
+*.env
+.env.sample
+
+.gitignore
